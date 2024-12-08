@@ -1,192 +1,169 @@
-top - 11:11:21 up 24 min,  2 users,  load average: 0.29, 0.35, 0.26
-Tasks: 420 total,   1 running, 419 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  0.6 us,  1.1 sy,  0.0 ni, 98.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :  14739.8 total,   7803.8 free,   3861.8 used,   3495.9 buff/cache     
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10878.0 avail Mem 
+top - 17:37:28 up  6:50,  2 users,  load average: 0.32, 0.36, 0.41
+Tasks: 421 total,   3 running, 417 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 12.0 us,  3.4 sy,  0.0 ni, 84.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  14739.8 total,   2926.3 free,   5293.9 used,   6985.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9445.9 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   3687 alkalin+  20   0 3049520 202156 148940 S   9.1   1.3   0:19.64 kgx
-      1 root      20   0   21388  12980  10024 S   0.0   0.1   0:01.73 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+   4502 alkalin+  20   0 1161.8g 410768 116940 S 181.8   2.7  12:00.14 codium
+   5692 alkalin+  20   0 1169.3g 555244 179128 S   9.1   3.7  12:13.84 Discord
+  59905 root      20   0       0      0      0 R   9.1   0.0   0:00.43 kworker+
+  64486 alkalin+  20   0    9616   6712   4792 R   9.1   0.0   0:00.01 top
+      1 root      20   0   21664  12980  10024 S   0.0   0.1   0:02.72 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.05 kthreadd
       3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      9 root      20   0       0      0      0 I   0.0   0.0   0:00.07 kworker+
-     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     11 root      20   0       0      0      0 I   0.0   0.0   0:01.60 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
      13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      16 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
-     17 root      20   0       0      0      0 S   0.0   0.0   0:00.04 ksoftir+
-     18 root      -2   0       0      0      0 I   0.0   0.0   0:00.86 rcu_pre+
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.48 ksoftir+
+     18 root      -2   0       0      0      0 I   0.0   0.0   0:11.46 rcu_pre+
      19 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcub/0
      20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+
-     21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+
-     22 root      rt   0       0      0      0 S   0.0   0.0   0:00.07 migrati+
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.03 rcu_exp+
+     22 root      rt   0       0      0      0 S   0.0   0.0   0:01.19 migrati+
      23 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
      24 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
      25 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2
      26 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     27 root      rt   0       0      0      0 S   0.0   0.0   0:00.26 migrati+
-     28 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftir+
+     27 root      rt   0       0      0      0 S   0.0   0.0   0:00.63 migrati+
+     28 root      20   0       0      0      0 S   0.0   0.0   0:00.16 ksoftir+
      30 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      31 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/4
      32 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     33 root      rt   0       0      0      0 S   0.0   0.0   0:00.36 migrati+
-     34 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
-     35 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker+
+     33 root      rt   0       0      0      0 S   0.0   0.0   0:02.01 migrati+
+     34 root      20   0       0      0      0 S   0.0   0.0   0:00.06 ksoftir+
      36 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      37 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/6
      38 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     39 root      rt   0       0      0      0 S   0.0   0.0   0:00.27 migrati+
-     40 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftir+
+     39 root      rt   0       0      0      0 S   0.0   0.0   0:00.63 migrati+
+     40 root      20   0       0      0      0 S   0.0   0.0   0:00.18 ksoftir+
      42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      43 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/8
      44 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     45 root      rt   0       0      0      0 S   0.0   0.0   0:00.34 migrati+
-     46 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftir+
-     47 root      20   0       0      0      0 I   0.0   0.0   0:00.14 kworker+
+     45 root      rt   0       0      0      0 S   0.0   0.0   0:01.76 migrati+
+     46 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
      48 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      49 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/10
      50 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     51 root      rt   0       0      0      0 S   0.0   0.0   0:00.31 migrati+
-     52 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftir+
+     51 root      rt   0       0      0      0 S   0.0   0.0   0:01.45 migrati+
+     52 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftir+
      54 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      55 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/12
      56 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     57 root      rt   0       0      0      0 S   0.0   0.0   0:00.36 migrati+
-     58 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
+     57 root      rt   0       0      0      0 S   0.0   0.0   0:01.93 migrati+
+     58 root      20   0       0      0      0 S   0.0   0.0   0:00.03 ksoftir+
      60 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      61 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/14
      62 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     63 root      rt   0       0      0      0 S   0.0   0.0   0:00.30 migrati+
-     64 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftir+
-     65 root      20   0       0      0      0 I   0.0   0.0   0:00.11 kworker+
+     63 root      rt   0       0      0      0 S   0.0   0.0   0:01.12 migrati+
+     64 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftir+
      66 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      67 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
      68 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     69 root      rt   0       0      0      0 S   0.0   0.0   0:00.26 migrati+
-     70 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftir+
+     69 root      rt   0       0      0      0 S   0.0   0.0   0:00.51 migrati+
+     70 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftir+
      72 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      73 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3
      74 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     75 root      rt   0       0      0      0 S   0.0   0.0   0:00.25 migrati+
-     76 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
+     75 root      rt   0       0      0      0 S   0.0   0.0   0:00.31 migrati+
+     76 root      20   0       0      0      0 S   0.0   0.0   0:00.07 ksoftir+
      78 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      79 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/5
      80 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     81 root      rt   0       0      0      0 S   0.0   0.0   0:00.26 migrati+
-     82 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
+     81 root      rt   0       0      0      0 S   0.0   0.0   0:00.55 migrati+
+     82 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftir+
      84 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      85 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/7
      86 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     87 root      rt   0       0      0      0 S   0.0   0.0   0:00.25 migrati+
-     88 root      20   0       0      0      0 S   0.0   0.0   0:00.01 ksoftir+
-     89 root      20   0       0      0      0 I   0.0   0.0   0:00.09 kworker+
+     87 root      rt   0       0      0      0 S   0.0   0.0   0:00.31 migrati+
+     88 root      20   0       0      0      0 S   0.0   0.0   0:00.07 ksoftir+
      90 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      91 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/9
      92 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     93 root      rt   0       0      0      0 S   0.0   0.0   0:00.30 migrati+
-     94 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
+     93 root      rt   0       0      0      0 S   0.0   0.0   0:01.01 migrati+
+     94 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftir+
      96 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      97 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/11
      98 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     99 root      rt   0       0      0      0 S   0.0   0.0   0:00.26 migrati+
-    100 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
-    101 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     99 root      rt   0       0      0      0 S   0.0   0.0   0:00.42 migrati+
+    100 root      20   0       0      0      0 S   0.0   0.0   0:00.03 ksoftir+
     102 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     103 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/13
     104 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-    105 root      rt   0       0      0      0 S   0.0   0.0   0:00.27 migrati+
-    106 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
+    105 root      rt   0       0      0      0 S   0.0   0.0   0:00.59 migrati+
+    106 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftir+
     108 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     109 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/15
     110 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-    111 root      rt   0       0      0      0 S   0.0   0.0   0:00.26 migrati+
-    112 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ksoftir+
+    111 root      rt   0       0      0      0 S   0.0   0.0   0:00.40 migrati+
+    112 root      20   0       0      0      0 S   0.0   0.0   0:00.04 ksoftir+
     114 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     115 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
     116 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     117 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
-    118 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
+    118 root      20   0       0      0      0 S   0.0   0.0   0:00.04 khungta+
     119 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
-    120 root      20   0       0      0      0 I   0.0   0.0   0:00.98 kworker+
     121 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    122 root      20   0       0      0      0 S   0.0   0.0   0:00.06 kcompac+
+    122 root      20   0       0      0      0 S   0.0   0.0   0:00.66 kcompac+
     123 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
-    124 root      39  19       0      0      0 S   0.0   0.0   0:00.27 khugepa+
+    124 root      39  19       0      0      0 S   0.0   0.0   0:00.85 khugepa+
     125 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     126 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     127 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    128 root      20   0       0      0      0 I   0.0   0.0   0:00.02 kworker+
-    129 root     -51   0       0      0      0 S   0.0   0.0   0:00.30 irq/9-a+
-    130 root      20   0       0      0      0 I   0.0   0.0   0:00.08 kworker+
+    129 root     -51   0       0      0      0 S   0.0   0.0   0:08.78 irq/9-a+
     131 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     132 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     133 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     134 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     135 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdo+
-    136 root      20   0       0      0      0 I   0.0   0.0   0:00.20 kworker+
-    137 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    137 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker+
     138 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/25-+
     140 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
     141 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     142 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    143 root      20   0       0      0      0 S   0.0   0.0   0:00.79 hwrng
+    143 root      20   0       0      0      0 S   0.0   0.0   0:06.53 hwrng
     144 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     146 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    152 root      20   0       0      0      0 I   0.0   0.0   0:01.73 kworker+
-    153 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker+
     156 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    157 root      20   0       0      0      0 I   0.0   0.0   0:00.01 kworker+
-    158 root      20   0       0      0      0 I   0.0   0.0   0:00.20 kworker+
-    159 root      20   0       0      0      0 I   0.0   0.0   0:00.05 kworker+
-    160 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
     166 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     167 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/26-+
-    168 root      20   0       0      0      0 I   0.0   0.0   0:00.05 kworker+
-    175 root      20   0       0      0      0 I   0.0   0.0   0:00.15 kworker+
     176 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/27-+
     177 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/28-+
     178 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/29-+
     179 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/30-+
     180 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/31-+
     181 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/32-+
-    182 root      20   0       0      0      0 I   0.0   0.0   0:00.25 kworker+
-    183 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    185 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    186 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    221 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    226 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    229 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker+
-    230 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    183 root       0 -20       0      0      0 I   0.0   0.0   0:00.04 kworker+
+    185 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
+    186 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
+    221 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
+    226 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker+
+    230 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
     236 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    242 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    256 root      20   0       0      0      0 I   0.0   0.0   0:00.05 kworker+
+    242 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
     367 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    386 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    399 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    386 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+    399 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
     400 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     405 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     407 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    418 root     -51   0       0      0      0 S   0.0   0.0   0:01.52 irq/48-+
+    418 root     -51   0       0      0      0 S   0.0   0.0   0:31.28 irq/48-+
     431 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    436 root      20   0       0      0      0 I   0.0   0.0   0:00.09 kworker+
     439 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     440 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     441 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     442 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    492 root      20   0       0      0      0 I   0.0   0.0   0:00.01 kworker+
-    632 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
     651 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     787 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     791 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     792 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    793 root      20   0       0      0      0 S   0.0   0.0   0:00.26 dmcrypt+
-    812 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    793 root      20   0       0      0      0 S   0.0   0.0   0:03.01 dmcrypt+
     813 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     814 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     815 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -200,26 +177,19 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10878.0 avail Mem
     823 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     824 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     825 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    826 root      20   0       0      0      0 S   0.0   0.0   0:00.00 btrfs-c+
-    827 root      20   0       0      0      0 S   0.0   0.0   0:00.49 btrfs-t+
-    828 root      20   0       0      0      0 I   0.0   0.0   0:00.76 kworker+
-    848 root      20   0       0      0      0 I   0.0   0.0   0:01.82 kworker+
-    852 root      20   0       0      0      0 I   0.0   0.0   0:01.97 kworker+
-    885 root      20   0   63640  26776  25752 S   0.0   0.2   0:00.39 systemd+
-    915 root      20   0   14400   5832   5192 S   0.0   0.0   0:00.03 systemd+
+    826 root      20   0       0      0      0 S   0.0   0.0   0:00.02 btrfs-c+
+    827 root      20   0       0      0      0 S   0.0   0.0   0:06.93 btrfs-t+
+    885 root      20   0   63784  30724  29700 S   0.0   0.2   0:01.50 systemd+
+    915 root      20   0   14400   5832   5192 S   0.0   0.0   0:00.10 systemd+
     919 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
-    928 root      20   0   35132  10348   7660 S   0.0   0.1   0:00.24 systemd+
+    928 root      20   0   35132  10348   7660 S   0.0   0.1   0:05.67 systemd+
     930 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
    1004 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
    1014 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1016 root      20   0       0      0      0 I   0.0   0.0   0:00.01 kworker+
    1023 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1026 root      20   0       0      0      0 I   0.0   0.0   0:00.01 kworker+
-   1042 root      20   0       0      0      0 I   0.0   0.0   0:00.02 kworker+
-   1053 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1068 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1042 root      20   0       0      0      0 I   0.0   0.0   0:00.36 kworker+
    1074 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1075 root     -51   0       0      0      0 S   0.0   0.0   0:18.78 irq/74-+
+   1075 root     -51   0       0      0      0 S   0.0   0.0   3:01.12 irq/74-+
    1077 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
    1079 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
    1080 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -251,177 +221,208 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10878.0 avail Mem
    1106 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
    1107 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
    1108 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1109 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1158 systemd+  20   0   89168   7540   6772 S   0.0   0.0   0:00.05 systemd+
-   1165 dbus      20   0    7388   3700   3060 S   0.0   0.0   0:00.03 dbus-br+
-   1166 dbus      20   0    6212   4052   2452 S   0.0   0.0   0:00.22 dbus-br+
-   1167 root      20   0  412704  24492  21164 S   0.0   0.2   0:00.62 Network+
-   1169 avahi     20   0    6224   4112   3856 S   0.0   0.0   0:00.06 avahi-d+
-   1171 root      20   0   15332   8456   6840 S   0.0   0.1   0:00.20 systemd+
+   1158 systemd+  20   0   89168   7540   6772 S   0.0   0.0   0:00.15 systemd+
+   1165 dbus      20   0    7388   3700   3060 S   0.0   0.0   0:00.07 dbus-br+
+   1166 dbus      20   0    6212   4052   2452 S   0.0   0.0   0:04.05 dbus-br+
+   1167 root      20   0  413000  24748  21164 S   0.0   0.2   0:04.69 Network+
+   1169 avahi     20   0    6224   4112   3856 S   0.0   0.0   0:00.82 avahi-d+
+   1171 root      20   0   15332   8456   6840 S   0.0   0.1   0:00.67 systemd+
    1174 avahi     20   0    6224   1368   1100 S   0.0   0.0   0:00.00 avahi-d+
    1198 root      20   0   18564   7456   6304 S   0.0   0.0   0:00.01 cupsd
-   1201 root      20   0  383752  10868   9972 S   0.0   0.1   0:00.05 gdm
-   1202 root      20   0  307692   8788   8020 S   0.0   0.1   0:00.12 power-p+
-   1207 root      20   0  308596   9224   8584 S   0.0   0.1   0:00.06 account+
-   1212 polkitd   20   0  382124   9764   6984 S   0.0   0.1   0:00.55 polkitd
+   1201 root      20   0  383752  10868   9972 S   0.0   0.1   0:00.12 gdm
+   1202 root      20   0  307828   8916   8020 S   0.0   0.1   0:01.41 power-p+
+   1207 root      20   0  308596   9224   8584 S   0.0   0.1   0:00.11 account+
+   1212 polkitd   20   0  385412  12144   9108 S   0.0   0.1   0:01.34 polkitd
    1237 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
-   1290 rtkit     21   1   20516   2828   2700 S   0.0   0.0   0:00.03 rtkit-d+
-   1330 colord    20   0  314992  15624  11272 S   0.0   0.1   0:00.09 colord
-   1364 root      20   0  316720  11960   9400 S   0.0   0.1   0:00.23 upowerd
-   1593 root      20   0   16192  10964   9428 S   0.0   0.1   0:00.30 wpa_sup+
-   1720 root      20   0  394960  10792   9640 S   0.0   0.1   0:00.02 gdm-ses+
-   1738 alkalin+  20   0   20696  12136   9832 S   0.0   0.1   0:00.31 systemd
+   1290 rtkit     21   1   86052   2828   2700 S   0.0   0.0   0:00.20 rtkit-d+
+   1330 colord    20   0  314992  15624  11272 S   0.0   0.1   0:00.11 colord
+   1364 root      20   0  321212  16184   9400 S   0.0   0.1   0:12.63 upowerd
+   1593 root      20   0   16416  11476   9684 S   0.0   0.1   0:02.49 wpa_sup+
+   1720 root      20   0  468692  10920   9640 S   0.0   0.1   0:00.20 gdm-ses+
+   1738 alkalin+  20   0   21440  12520   9832 S   0.0   0.1   0:00.80 systemd
    1740 alkalin+  20   0   21540   3704   1996 S   0.0   0.0   0:00.00 (sd-pam)
-   1750 alkalin+  20   0  459340  11268  10372 S   0.0   0.1   0:00.14 gnome-k+
-   1756 alkalin+  20   0    6944   3340   3084 S   0.0   0.0   0:00.02 dbus-br+
-   1757 alkalin+  20   0    6200   3712   2220 S   0.0   0.0   0:00.29 dbus-br+
+   1750 alkalin+  20   0  459340  11268  10372 S   0.0   0.1   0:00.55 gnome-k+
+   1756 alkalin+  20   0    6944   3340   3084 S   0.0   0.0   0:00.06 dbus-br+
+   1757 alkalin+  20   0    7496   4748   2220 S   0.0   0.0   0:01.62 dbus-br+
    1773 alkalin+  20   0  232024   5420   5036 S   0.0   0.0   0:00.00 gdm-way+
    1777 alkalin+  20   0  370040  16008  14088 S   0.0   0.1   0:00.02 gnome-s+
    1814 alkalin+  20   0   85428   4380   4124 S   0.0   0.0   0:00.00 gnome-s+
-   1816 alkalin+  20   0  518192  18920  16744 S   0.0   0.1   0:00.13 gnome-s+
-   1839 alkalin+  20   0 6025768 358676 228496 S   0.0   2.4   0:53.07 gnome-s+
-   1845 alkalin+  20   0  321764  11872  10464 S   0.0   0.1   0:00.03 gvfsd
+   1816 alkalin+  20   0  518196  18920  16744 S   0.0   0.1   0:00.27 gnome-s+
+   1839 alkalin+  20   0 6305032 391776 238908 S   0.0   2.6  13:04.19 gnome-s+
+   1845 alkalin+  20   0  321764  11872  10464 S   0.0   0.1   0:00.07 gvfsd
    1851 alkalin+  20   0  456020   8384   8000 S   0.0   0.1   0:00.00 gvfsd-f+
-   1897 alkalin+  20   0  379348   6784   6144 S   0.0   0.0   0:00.01 at-spi-+
+   1897 alkalin+  20   0  379348   6784   6144 S   0.0   0.0   0:00.02 at-spi-+
    1903 alkalin+  20   0    6812   3316   3060 S   0.0   0.0   0:00.00 dbus-br+
-   1904 alkalin+  20   0    4096   2316   2188 S   0.0   0.0   0:00.00 dbus-br+
-   1905 alkalin+  20   0  232508   6668   5900 S   0.0   0.0   0:00.02 at-spi2+
-   1910 alkalin+  20   0  305652   5628   5244 S   0.0   0.0   0:00.00 xdg-per+
-   1920 alkalin+  20   0  229332   5604   4964 S   0.0   0.0   0:00.00 dconf-s+
-   1940 alkalin+  20   0 2730916  27236  22400 S   0.0   0.2   0:00.09 gjs
+   1904 alkalin+  20   0    4216   2316   2188 S   0.0   0.0   0:00.03 dbus-br+
+   1905 alkalin+  20   0  232508   6668   5900 S   0.0   0.0   0:00.03 at-spi2+
+   1910 alkalin+  20   0  305652   5628   5244 S   0.0   0.0   0:00.01 xdg-per+
+   1920 alkalin+  20   0  229432   5604   4964 S   0.0   0.0   0:00.11 dconf-s+
+   1940 alkalin+  20   0 2730916  33700  28608 S   0.0   0.2   0:00.15 gjs
    1942 alkalin+  20   0  379864   5812   5428 S   0.0   0.0   0:00.02 gsd-a11+
-   1943 alkalin+  20   0  446420  21156  18084 S   0.0   0.1   0:00.07 gsd-col+
-   1944 alkalin+  20   0  427516  11428  10276 S   0.0   0.1   0:00.03 gsd-dat+
-   1945 alkalin+  20   0  384332   9528   9016 S   0.0   0.1   0:00.11 gsd-hou+
-   1946 alkalin+  20   0  445148  20060  17244 S   0.0   0.1   0:00.06 gsd-key+
-   1951 alkalin+  20   0  742660  24684  21356 S   0.0   0.2   0:00.24 gsd-med+
-   1954 alkalin+  20   0  520168  21508  18436 S   0.0   0.1   0:00.11 gsd-pow+
-   1957 alkalin+  20   0  318764   9592   8440 S   0.0   0.1   0:00.03 gsd-pri+
-   1958 alkalin+  20   0  527524   5880   5368 S   0.0   0.0   0:00.03 gsd-rfk+
-   1961 alkalin+  20   0  305932   5376   4992 S   0.0   0.0   0:00.01 gsd-scr+
-   1962 alkalin+  20   0  307028   7152   6384 S   0.0   0.0   0:00.01 gsd-dis+
-   1967 alkalin+  20   0  532132   8680   7656 S   0.0   0.1   0:00.07 gsd-sha+
+   1943 alkalin+  20   0  446424  21156  18084 S   0.0   0.1   0:00.16 gsd-col+
+   1944 alkalin+  20   0  427516  11428  10276 S   0.0   0.1   0:00.04 gsd-dat+
+   1945 alkalin+  20   0  384332   9528   9016 S   0.0   0.1   0:00.64 gsd-hou+
+   1946 alkalin+  20   0  445148  20060  17244 S   0.0   0.1   0:00.08 gsd-key+
+   1951 alkalin+  20   0  808236  29156  25572 S   0.0   0.2   0:01.60 gsd-med+
+   1954 alkalin+  20   0  595224  29804  26348 S   0.0   0.2   0:01.31 gsd-pow+
+   1957 alkalin+  20   0  318764  11640  10488 S   0.0   0.1   0:00.04 gsd-pri+
+   1958 alkalin+  20   0  527524   5880   5368 S   0.0   0.0   0:00.07 gsd-rfk+
+   1961 alkalin+  20   0  305932   5376   4992 S   0.0   0.0   0:00.02 gsd-scr+
+   1962 alkalin+  20   0  307028   7152   6384 S   0.0   0.0   0:00.02 gsd-dis+
+   1967 alkalin+  20   0  532268   8680   7656 S   0.0   0.1   0:00.68 gsd-sha+
    1971 alkalin+  20   0  381840   7328   6432 S   0.0   0.0   0:00.02 gsd-sma+
-   1980 alkalin+  20   0  391600   8148   7380 S   0.0   0.1   0:00.02 gsd-sou+
-   1983 alkalin+  20   0  531236   6832   6448 S   0.0   0.0   0:00.02 gsd-usb+
-   1986 alkalin+  20   0  607148  85368  51960 S   0.0   0.6   0:00.61 firewal+
-   2009 alkalin+  20   0  520412  21220  17636 S   0.0   0.1   0:00.08 gsd-wac+
-   2061 root      20   0  468236  15692  13260 S   0.0   0.1   0:00.08 udisksd
-   2086 alkalin+  20   0 2739116  33080  28388 S   0.0   0.2   0:00.08 gjs
-   2147 alkalin+  20   0  431456  15684  13764 S   0.0   0.1   0:00.03 gvfs-ud+
-   2196 alkalin+  20   0  306448   8356   7588 S   0.0   0.1   0:00.02 gvfs-mt+
-   2207 alkalin+  20   0  308296   9000   8104 S   0.0   0.1   0:00.01 gvfs-gp+
-   2219 alkalin+  20   0  386912   7104   6336 S   0.0   0.0   0:00.08 gvfs-af+
-   2248 alkalin+  20   0  759292  16088  13656 S   0.0   0.1   0:00.19 xdg-des+
-   2286 alkalin+  20   0  604188   6124   5612 S   0.0   0.0   0:00.06 xdg-doc+
+   1980 alkalin+  20   0  391600   8148   7380 S   0.0   0.1   0:00.03 gsd-sou+
+   1983 alkalin+  20   0  531240   6832   6448 S   0.0   0.0   0:00.05 gsd-usb+
+   1986 alkalin+  20   0  607148  85368  51960 S   0.0   0.6   0:03.05 firewal+
+   2009 alkalin+  20   0  520412  21220  17636 S   0.0   0.1   0:00.09 gsd-wac+
+   2061 root      20   0  468224  15692  13260 S   0.0   0.1   0:00.42 udisksd
+   2086 alkalin+  20   0 2739116  33208  28388 S   0.0   0.2   0:00.18 gjs
+   2147 alkalin+  20   0  431580  15684  13764 S   0.0   0.1   0:00.11 gvfs-ud+
+   2196 alkalin+  20   0  306448   8356   7588 S   0.0   0.1   0:00.03 gvfs-mt+
+   2207 alkalin+  20   0  308296   9000   8104 S   0.0   0.1   0:00.03 gvfs-gp+
+   2219 alkalin+  20   0  386912   7104   6336 S   0.0   0.0   0:00.80 gvfs-af+
+   2248 alkalin+  20   0  759292  16344  13656 S   0.0   0.1   0:01.07 xdg-des+
+   2286 alkalin+  20   0  604188   6124   5612 S   0.0   0.0   0:00.41 xdg-doc+
    2292 root      20   0    2560   1884   1884 S   0.0   0.0   0:00.00 fusermo+
-   2296 alkalin+  20   0 1551664 169976 114012 S   0.0   1.1   0:05.37 Xwayland
-   2301 alkalin+  20   0 3240472  70200  50120 S   0.0   0.5   0:02.09 gjs
-   2320 alkalin+   9 -11  104208  15172   9680 S   0.0   0.1   0:01.27 pipewire
-   2321 alkalin+   9 -11  480396  18708  14740 S   0.0   0.1   0:00.62 wireplu+
-   2323 alkalin+   9 -11  171496  13276   8968 S   0.0   0.1   0:01.15 pipewir+
-   2385 alkalin+  20   0  960552  34464  24736 S   0.0   0.2   0:00.33 xdg-des+
-   2423 alkalin+  20   0 1153876  39376  27132 S   0.0   0.3   0:00.18 gsd-xse+
-   2441 alkalin+  20   0  451340  24680  20456 S   0.0   0.2   0:00.11 xdg-des+
-   2470 alkalin+  20   0 2581636  90016  49020 S   0.0   0.6   0:02.73 mutter-+
-   2526 root       0 -20       0      0      0 I   0.0   0.0   0:00.05 kworker+
-   2541 alkalin+  20   0  449448  15804  13756 S   0.0   0.1   0:00.03 gsd-pri+
-   2573 alkalin+  20   0 3337980 461892 289664 S   0.0   3.1   0:19.38 firefox
-   2663 alkalin+  20   0  253652  37120  28288 S   0.0   0.2   0:00.04 Socket +
-   2681 alkalin+  20   0   22.8g 220236 120528 S   0.0   1.5   0:09.91 WebExte+
-   2712 alkalin+  20   0 2520568 140148 107048 S   0.0   0.9   0:00.93 Privile+
-   2791 alkalin+  20   0  252476  34892  26188 S   0.0   0.2   0:00.06 Utility+
-   2800 alkalin+  20   0 2455612  55736  42680 S   0.0   0.4   0:00.26 Web Con+
-   2803 alkalin+  20   0 2455612  61844  48916 S   0.0   0.4   0:00.25 Web Con+
-   2810 alkalin+  20   0 2455612  59388  46588 S   0.0   0.4   0:00.25 Web Con+
-   2878 alkalin+  20   0   32.8g 381296 220084 S   0.0   2.5   0:18.54 brave
-   2882 alkalin+  20   0   32.0g   3724   3468 S   0.0   0.0   0:00.00 chrome_+
+   2296 alkalin+  20   0 1556980 175788 114320 S   0.0   1.2   1:58.08 Xwayland
+   2301 alkalin+  20   0 3241464  73024  51656 S   0.0   0.5   0:10.35 gjs
+   2320 alkalin+  20   0  104208  15736   9684 S   0.0   0.1   0:02.98 pipewire
+   2321 alkalin+  20   0  480528  18708  14740 S   0.0   0.1   0:02.03 wireplu+
+   2323 alkalin+  20   0  179484  15556   9356 S   0.0   0.1   0:21.72 pipewir+
+   2385 alkalin+  20   0  960556  38344  28616 S   0.0   0.3   0:01.90 xdg-des+
+   2423 alkalin+  20   0 1153876  39376  27132 S   0.0   0.3   0:00.82 gsd-xse+
+   2441 alkalin+  20   0  451384  24680  20456 S   0.0   0.2   0:00.44 xdg-des+
+   2470 alkalin+  20   0 2644148  98444  56324 S   0.0   0.7   0:29.66 mutter-+
+   2541 alkalin+  20   0  449448  15804  13756 S   0.0   0.1   0:00.06 gsd-pri+
+   2878 alkalin+  20   0   32.8g 432120 244900 S   0.0   2.9   4:11.97 brave
+   2882 alkalin+  20   0   32.0g   3852   3468 S   0.0   0.0   0:00.00 chrome_+
    2884 alkalin+  20   0   32.0g   3712   3456 S   0.0   0.0   0:00.00 chrome_+
-   2890 alkalin+  20   0   32.6g  65344  51520 S   0.0   0.4   0:00.02 brave
-   2891 alkalin+  20   0   32.6g  65308  51612 S   0.0   0.4   0:00.03 brave
-   2893 alkalin+  20   0   32.6g  18276   4424 S   0.0   0.1   0:00.03 brave
-   2920 alkalin+  20   0   33.1g 264812 179632 S   0.0   1.8   0:08.32 brave
-   2921 alkalin+  20   0   32.4g 125004 105012 S   0.0   0.8   0:04.10 brave
-   2989 alkalin+  20   0   32.6g  59332  43676 S   0.0   0.4   0:00.31 brave
-   3001 alkalin+  20   0 1156.3g 181612 114164 S   0.0   1.2   0:02.75 brave
-   3649 alkalin+  20   0 1157.9g 185564 127144 S   0.0   1.2   0:03.48 brave
-   3673 root      20   0       0      0      0 I   0.0   0.0   0:00.89 kworker+
-   3674 root      20   0       0      0      0 I   0.0   0.0   0:00.84 kworker+
-   3696 alkalin+  20   0   13288  11756   5740 S   0.0   0.1   0:00.14 bash
-   3974 alkalin+  20   0  232696   7760   7376 S   0.0   0.1   0:00.00 gvfsd-m+
-   4080 alkalin+  20   0 1156.3g 186384 125712 S   0.0   1.2   0:03.30 brave
-   4085 alkalin+  20   0 1156.3g 163440 115312 S   0.0   1.1   0:00.96 brave
-   4087 alkalin+  20   0 1156.3g 168912 115548 S   0.0   1.1   0:01.24 brave
-   4097 alkalin+  20   0 1156.3g 172620 118388 S   0.0   1.1   0:01.01 brave
-   4146 alkalin+  20   0 1156.3g 166396 115908 S   0.0   1.1   0:00.96 brave
-   4167 alkalin+  20   0 1156.3g 179436 117808 S   0.0   1.2   0:01.24 brave
-   4189 alkalin+  20   0 1156.2g 122744  97464 S   0.0   0.8   0:00.18 brave
-   4223 alkalin+  20   0 1156.3g 163892 114156 S   0.0   1.1   0:02.51 brave
-   4416 alkalin+  20   0 1158.0g 212676 149976 S   0.0   1.4   0:07.55 codium
-   4419 alkalin+  20   0   32.5g  55408  46192 S   0.0   0.4   0:00.03 codium
-   4420 alkalin+  20   0   32.5g  55532  46188 S   0.0   0.4   0:00.02 codium
-   4422 alkalin+  20   0   32.5g  13108   3732 S   0.0   0.1   0:00.00 codium
-   4455 alkalin+  20   0   33.0g 241960 188208 S   0.0   1.6   0:08.95 codium
-   4459 alkalin+  20   0   32.3g  77444  67336 S   0.0   0.5   0:00.13 codium
-   4502 alkalin+  20   0 1161.7g 256124 107580 S   0.0   1.7   0:27.22 codium
-   4520 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker+
-   4521 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker+
-   4563 alkalin+  20   0 1157.8g 109724  80904 S   0.0   0.7   0:01.28 codium
-   4564 alkalin+  20   0 1157.8g 108596  81936 S   0.0   0.7   0:00.94 codium
-   4584 alkalin+  20   0 1157.8g 135556  85088 S   0.0   0.9   0:02.63 codium
-   4851 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
-   4852 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
-   4876 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   4978 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5020 alkalin+  20   0  469288  12048  10640 S   0.0   0.1   0:00.02 gvfsd-s+
-   5032 alkalin+  20   0   13660   9740   8332 S   0.0   0.1   0:00.00 ssh
-   5036 alkalin+  20   0   14072   9852   8316 S   0.0   0.1   0:00.00 ssh
-   5038 alkalin+  20   0   13400   8936   7784 S   0.0   0.1   0:00.00 ssh
-   5047 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5083 root      20   0       0      0      0 I   0.0   0.0   0:00.23 kworker+
-   5084 root      20   0       0      0      0 I   0.0   0.0   0:00.52 kworker+
-   5105 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5132 root      20   0       0      0      0 I   0.0   0.0   0:00.22 kworker+
-   5133 root      20   0       0      0      0 I   0.0   0.0   0:00.62 kworker+
-   5135 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
-   5136 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
-   5189 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker+
-   5190 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5191 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5192 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
-   5193 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5194 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
-   5195 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5196 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5197 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5311 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
-   5312 root      20   0       0      0      0 I   0.0   0.0   0:00.07 kworker+
-   5333 root      20   0   14948   6140   5500 S   0.0   0.0   0:00.00 systemd+
-   5480 alkalin+  20   0  543356  12780  11372 S   0.0   0.1   0:00.01 gvfsd-t+
-   5505 alkalin+  39  19  732932  34400  26632 S   0.0   0.2   0:00.12 localse+
-   5530 root      20   0       0      0      0 I   0.0   0.0   0:00.22 kworker+
-   5552 alkalin+  20   0 1156.1g 210836 144684 S   0.0   1.4   0:03.33 Discord
-   5557 alkalin+  20   0   32.5g  50372  41796 S   0.0   0.3   0:00.03 Discord
-   5558 alkalin+  20   0   32.5g  51100  42268 S   0.0   0.3   0:00.03 Discord
+   2890 alkalin+  20   0   32.6g  64960  51136 S   0.0   0.4   0:00.02 brave
+   2891 alkalin+  20   0   32.6g  64924  51228 S   0.0   0.4   0:00.03 brave
+   2893 alkalin+  20   0   32.6g  18276   4424 S   0.0   0.1   0:00.44 brave
+   2920 alkalin+  20   0   33.1g 318248 188176 S   0.0   2.1   3:04.03 brave
+   2921 alkalin+  20   0   32.5g 137020 108612 S   0.0   0.9   1:01.66 brave
+   2989 alkalin+  20   0   32.6g  65052  47900 S   0.0   0.4   0:03.55 brave
+   3649 alkalin+  20   0 1157.9g 178152 137980 S   0.0   1.2   0:09.78 brave
+   3687 alkalin+  20   0 3132120 227816 151688 R   0.0   1.5   2:12.63 kgx
+   3974 alkalin+  20   0  232732   7760   7376 S   0.0   0.1   0:00.01 gvfsd-m+
+   4167 alkalin+  20   0 1156.3g 199320 132124 S   0.0   1.3   0:02.16 brave
+   4416 alkalin+  20   0 1158.0g 237624 157120 S   0.0   1.6   2:18.85 codium
+   4419 alkalin+  20   0   32.5g  55024  45808 S   0.0   0.4   0:00.03 codium
+   4420 alkalin+  20   0   32.5g  55148  45804 S   0.0   0.4   0:00.02 codium
+   4422 alkalin+  20   0   32.5g  13108   3732 S   0.0   0.1   0:00.02 codium
+   4455 alkalin+  20   0   33.0g 259328 190892 S   0.0   1.7   3:55.92 codium
+   4459 alkalin+  20   0   32.3g  80528  69144 S   0.0   0.5   0:02.49 codium
+   4563 alkalin+  20   0 1157.8g 140972  83988 S   0.0   0.9   0:05.19 codium
+   4564 alkalin+  20   0 1157.8g 111788  81552 S   0.0   0.7   0:07.27 codium
+   4584 alkalin+  20   0 1157.8g 165676  89500 S   0.0   1.1   0:51.01 codium
+   5480 alkalin+  20   0  543488  12780  11372 S   0.0   0.1   0:00.06 gvfsd-t+
+   5505 alkalin+  39  19  806668  36780  26632 S   0.0   0.2   0:01.43 localse+
+   5552 alkalin+  20   0 1156.1g 205116 143284 S   0.0   1.4   0:46.26 Discord
+   5557 alkalin+  20   0   32.5g  50116  41540 S   0.0   0.3   0:00.03 Discord
+   5558 alkalin+  20   0   32.5g  50844  42012 S   0.0   0.3   0:00.03 Discord
    5561 alkalin+  20   0   32.5g  10688   1796 S   0.0   0.1   0:00.00 Discord
    5576 alkalin+  20   0   32.0g   3480   3224 S   0.0   0.0   0:00.00 chrome_+
-   5603 alkalin+  20   0   33.0g 247268 188156 S   0.0   1.6   0:03.52 Discord
-   5607 alkalin+  20   0   32.4g  83372  70152 S   0.0   0.6   0:01.68 Discord
-   5679 root      20   0   14944   5484   4716 S   0.0   0.0   0:00.00 systemd+
-   5680 root      20   0   14944   5824   5056 S   0.0   0.0   0:00.00 systemd+
-   5692 alkalin+  20   0 1169.3g 532020 163184 S   0.0   3.5   0:23.70 Discord
-   5749 alkalin+  20   0   32.4g  65884  56672 S   0.0   0.4   0:00.67 Discord
-   5988 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5989 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   5997 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   6003 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   6004 root      20   0       0      0      0 I   0.0   0.0   0:00.07 kworker+
-   6036 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   6118 alkalin+  20   0 1156.3g 189180 126124 S   0.0   1.3   0:02.00 brave
-   6130 alkalin+  20   0 1156.3g 161792 119740 S   0.0   1.1   0:01.02 brave
-   6156 alkalin+  20   0 1156.1g  72544  54608 S   0.0   0.5   0:00.02 brave
-   6174 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   6207 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   6265 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   6285 alkalin+  20   0    7560   5360   5104 S   0.0   0.0   0:00.00 sh
-   6286 alkalin+  20   0    9616   6640   4720 R   0.0   0.0   0:00.00 top
+   5603 alkalin+  20   0   33.0g 251276 188472 S   0.0   1.7   0:46.35 Discord
+   5607 alkalin+  20   0   32.4g  83040  70256 S   0.0   0.6   0:15.55 Discord
+   5749 alkalin+  20   0   32.4g  65628  56416 S   0.0   0.4   0:01.68 Discord
+   6366 alkalin+  20   0   32.5g  90008  75160 S   0.0   0.6   0:03.25 brave
+   6589 alkalin+  20   0   13288  11812   5668 S   0.0   0.1   0:00.21 bash
+  14290 alkalin+  20   0 4930116 172884  23612 S   0.0   1.1   1:35.29 gopls
+  14302 alkalin+  20   0 1916464  26724  16416 S   0.0   0.2   0:00.36 gopls
+  20198 alkalin+  20   0 1155.9g  84380  64308 S   0.0   0.6   0:00.76 codium
+  27319 root      20   0       0      0      0 I   0.0   0.0   0:02.50 kworker+
+  29537 root      20   0 2313532  50360  37916 S   0.0   0.3   0:15.59 contain+
+  29567 root      20   0 2496608  75624  50608 S   0.0   0.5   0:01.00 dockerd
+  34723 alkalin+  20   0  397972  13408  11616 S   0.0   0.1   0:00.03 gvfsd-r+
+  34724 alkalin+  20   0  396088  12164  10756 S   0.0   0.1   0:00.01 gvfsd-n+
+  35210 alkalin+  20   0 1157.8g 118252  88108 S   0.0   0.8   0:02.34 codium
+  39455 alkalin+  20   0  306200   8044   7660 S   0.0   0.1   0:00.17 flatpak+
+  39460 alkalin+  20   0    5236   1092    824 S   0.0   0.0   0:00.00 p11-kit+
+  43020 root      20   0       0      0      0 I   0.0   0.0   0:01.81 kworker+
+  43047 root      20   0       0      0      0 I   0.0   0.0   0:01.10 kworker+
+  47313 root      20   0       0      0      0 I   0.0   0.0   0:00.53 kworker+
+  48816 root      20   0       0      0      0 I   0.0   0.0   0:00.96 kworker+
+  49410 root      20   0       0      0      0 I   0.0   0.0   0:05.39 kworker+
+  50183 root      20   0       0      0      0 I   0.0   0.0   0:05.23 kworker+
+  51055 alkalin+  20   0    2840   1912   1784 S   0.0   0.0   0:00.02 bwrap
+  51066 alkalin+  20   0    2840   1752   1624 S   0.0   0.0   0:00.00 bwrap
+  51067 alkalin+  20   0  232032   7108   6724 S   0.0   0.0   0:00.02 xdg-dbu+
+  51070 alkalin+  20   0    2840   1348   1220 S   0.0   0.0   0:00.02 bwrap
+  51071 alkalin+  20   0    7728   3680   3424 S   0.0   0.0   0:00.00 obsidia+
+  51082 alkalin+  20   0 1156.3g 195368 150032 S   0.0   1.3   0:06.18 obsidian
+  51087 alkalin+  20   0  362244  18516  16468 S   0.0   0.1   0:00.11 flatpak+
+  51094 alkalin+  20   0   32.6g  58676  46772 S   0.0   0.4   0:00.03 obsidian
+  51096 alkalin+  20   0       0      0      0 Z   0.0   0.0   0:00.00 zypak-s+
+  51098 alkalin+  20   0    5820   1612   1612 S   0.0   0.0   0:00.00 cat
+  51099 alkalin+  20   0    5820   1632   1632 S   0.0   0.0   0:00.00 cat
+  51100 alkalin+  20   0    2840   1688   1688 S   0.0   0.0   0:00.02 bwrap
+  51109 alkalin+  20   0    2840   1336   1208 S   0.0   0.0   0:00.01 bwrap
+  51110 alkalin+  20   0   32.6g  58604  46700 S   0.0   0.4   0:00.02 obsidian
+  51142 alkalin+  20   0   32.9g 156588  57924 S   0.0   1.0   0:08.18 obsidian
+  51169 alkalin+  20   0   32.4g  83128  69968 S   0.0   0.6   0:00.63 obsidian
+  51224 alkalin+  20   0   11224   9576   2408 S   0.0   0.1   0:00.02 p11-kit+
+  51246 root      20   0       0      0      0 I   0.0   0.0   0:00.27 kworker+
+  51277 alkalin+  20   0 1160.1g 218572 132212 S   0.0   1.4   0:06.32 obsidian
+  51452 root      20   0       0      0      0 I   0.0   0.0   0:00.68 kworker+
+  51879 root      20   0       0      0      0 I   0.0   0.0   0:00.27 kworker+
+  51918 root      20   0       0      0      0 I   0.0   0.0   0:00.33 kworker+
+  52032 alkalin+  20   0 3108576 259792 190624 S   0.0   1.7   0:02.05 gnome-c+
+  52254 alkalin+  20   0 1156.3g 165096 131848 S   0.0   1.1   0:00.66 brave
+  52529 root      20   0       0      0      0 I   0.0   0.0   0:04.98 kworker+
+  52779 alkalin+  20   0 1156.3g 212920 145724 S   0.0   1.4   0:01.07 brave
+  52936 root      20   0       0      0      0 I   0.0   0.0   0:00.44 kworker+
+  52997 root      20   0       0      0      0 I   0.0   0.0   0:00.46 kworker+
+  53120 alkalin+  20   0 1156.3g 218060 133276 S   0.0   1.4   0:01.40 brave
+  53179 alkalin+  20   0 1156.3g 210736 144868 S   0.0   1.4   0:03.45 brave
+  53202 root      20   0       0      0      0 I   0.0   0.0   0:00.46 kworker+
+  53236 root      20   0       0      0      0 I   0.0   0.0   0:00.21 kworker+
+  53639 root      20   0       0      0      0 I   0.0   0.0   0:01.23 kworker+
+  53737 root      20   0       0      0      0 I   0.0   0.0   0:00.16 kworker+
+  53862 root      20   0       0      0      0 I   0.0   0.0   0:03.30 kworker+
+  53863 alkalin+  20   0 1157.9g 279784 150912 S   0.0   1.9   0:29.08 brave
+  53957 root      20   0       0      0      0 I   0.0   0.0   0:00.78 kworker+
+  55383 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  55678 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  56132 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  56266 root      20   0       0      0      0 I   0.0   0.0   0:01.89 kworker+
+  56627 root       0 -20       0      0      0 I   0.0   0.0   0:00.04 kworker+
+  56710 root      20   0       0      0      0 I   0.0   0.0   0:01.86 kworker+
+  58616 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
+  58633 root      20   0       0      0      0 I   0.0   0.0   0:01.42 kworker+
+  59115 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  59334 root      20   0       0      0      0 I   0.0   0.0   0:00.08 kworker+
+  59643 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
+  59644 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+  59645 root       0 -20       0      0      0 I   0.0   0.0   0:00.06 kworker+
+  59697 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  59804 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  59807 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  59815 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker+
+  59904 root      20   0       0      0      0 I   0.0   0.0   0:00.25 kworker+
+  60814 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  60815 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  60866 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  60868 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+  60914 root      20   0       0      0      0 I   0.0   0.0   0:00.41 kworker+
+  61342 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  61343 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  61344 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  61967 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  61999 alkalin+  20   0 1156.2g 183756 135172 S   0.0   1.2   0:01.13 brave
+  62011 alkalin+  20   0 1156.2g 127492 106180 S   0.0   0.8   0:00.08 brave
+  62033 alkalin+  20   0 1156.3g 226008 146996 S   0.0   1.5   0:01.18 brave
+  62043 alkalin+  20   0 1156.1g  80124  62288 S   0.0   0.5   0:00.02 brave
+  62083 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63143 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63160 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63169 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63175 root      20   0   14804   5560   4920 S   0.0   0.0   0:00.00 systemd+
+  63176 root      20   0   14804   5648   4880 S   0.0   0.0   0:00.00 systemd+
+  63177 root      20   0   14804   5572   4804 S   0.0   0.0   0:00.00 systemd+
+  63178 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63179 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63186 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63644 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  63666 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  64485 alkalin+  20   0    7560   5448   5064 S   0.0   0.0   0:00.00 sh
