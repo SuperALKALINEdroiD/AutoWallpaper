@@ -5,12 +5,21 @@ import (
 	"image/color"
 	"image/png"
 	"log"
+	"math"
+	"math/rand"
 	"os"
+	"sort"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/jfyne/wordclouds"
 )
+
+type wordFrequency struct {
+	Word      string
+	StatValue int
+}
 
 func main() {
 	topStats, err := os.ReadFile("./top-out")
@@ -58,17 +67,9 @@ func main() {
 		log.Fatalf("Error loading font file: %v", err)
 	}
 
-	// customize this
-	var defaultColors = []color.Color{
-		color.RGBA{255, 255, 204, 255},
-		color.RGBA{0x48, 0x48, 0x4B, 0xff},
-		color.RGBA{0x59, 0x3a, 0xee, 0xff},
-		color.RGBA{0x65, 0xCD, 0xFA, 0xff},
-		color.RGBA{0x70, 0xD6, 0xBF, 0xff},
-	}
+	var defaultColors = generateColors(50)
 
 	var backgroundColor wordclouds.Option
-
 	if mode == "light" {
 		backgroundColor = wordclouds.BackgroundColor(color.RGBA{255, 255, 255, 255})
 	} else {
@@ -77,12 +78,15 @@ func main() {
 
 	defer fontFile.Close()
 
+	// TODO: dynamic screensize and colors
 	wordCloud, wordCloudError := wordclouds.NewWordcloud(
 		statsAsMap,
 		wordclouds.Font(fontFile),
+		wordclouds.FontMaxSize(62),
+		wordclouds.FontMinSize(10),
 		wordclouds.RandomPlacement(true),
-		wordclouds.Height(2048),
-		wordclouds.Width(2048),
+		wordclouds.Height(1200),
+		wordclouds.Width(1920),
 		wordclouds.Colors(defaultColors),
 		backgroundColor,
 	)
@@ -107,13 +111,11 @@ func main() {
 	fmt.Println("SAVED")
 }
 
-func makeMap(statLines []string, statIndex int) (wordMap map[string]int) {
-	wordMap = make(map[string]int)
+func makeMap(statLines []string, statIndex int) map[string]int {
+	wordMap := make(map[string]int)
 
 	for _, statLine := range statLines {
 		normalizedContent := strings.Fields(statLine)
-
-		fmt.Println(normalizedContent)
 
 		if len(normalizedContent) == 0 {
 			continue
@@ -129,5 +131,44 @@ func makeMap(statLines []string, statIndex int) (wordMap map[string]int) {
 		wordMap[statName] += int(statValue)
 	}
 
-	return wordMap
+	var minValue, maxValue int = math.MaxInt, math.MinInt
+	for _, value := range wordMap {
+		if value < minValue {
+			minValue = value
+		}
+		if value > maxValue {
+			maxValue = value
+		}
+	}
+
+	var frequencies []wordFrequency
+	for word, count := range wordMap {
+		frequencies = append(frequencies, wordFrequency{Word: word, Count: count})
+	}
+
+	sort.Slice(frequencies, func(i, j int) bool {
+		return frequencies[i].StatValue < frequencies[j].StatValue
+	})
+
+	rankedMap := make(map[string]int)
+	for index, item := range frequencies {
+		rankedMap[item.Word] = index + 1
+	}
+
+	return rankedMap
+}
+
+func generateColors(count int) []color.Color {
+	colors := make([]color.Color, count)
+
+	rand.New(rand.NewSource(time.Now().UnixNano()))
+
+	for i := 0; i < count; i++ {
+		r := uint8(rand.Intn(256))
+		g := uint8(rand.Intn(256))
+		b := uint8(rand.Intn(256))
+		colors[i] = color.RGBA{R: r, G: g, B: b, A: 255}
+	}
+
+	return colors
 }

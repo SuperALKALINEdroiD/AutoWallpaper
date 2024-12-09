@@ -5,19 +5,20 @@
 # $3: Background mode (dark / light)
 
 type="cpu"
-colors=""
 mode="dark"
+colors=""
 
 if [[ -n "$1" ]]; then
     type="$1"
 fi
 
+
 if [[ -n "$2" ]]; then
-    colors="$2"
+    mode="$2"
 fi
 
 if [[ -n "$3" ]]; then
-    mode="$3"
+    colors="$3"
 fi
 
 if [[ "$mode" != "dark" && "$mode" != "light" ]]; then
@@ -36,4 +37,3 @@ top -b -n 1 > top-out
 ./go-out "type=$type" "color=$colors" "mode=$mode"
 
 # set wallpaper: TODO
-
